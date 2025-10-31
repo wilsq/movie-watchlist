@@ -25,7 +25,7 @@ Projekti on toteutettu fullstack-periaatteella:
 
 | Kerros             | Teknologia                         |
 | ------------------ | ---------------------------------- |
-| Frontend           | React + Vite                       |
+| Frontend (tulossa) | React + Vite                       |
 | Backend            | Node.js + Express                  |
 | Tietokanta         | PostgreSQL                         |
 | Ulkoinen API       | OMDb API (https://www.omdbapi.com) |
