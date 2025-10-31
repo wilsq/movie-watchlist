@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { pool } from "./db.js";
 import movieRoutes from "./routes/movies.js";
+import omdbRoutes from "./routes/omdb.js";
 
 // lataa .env-tiedoston muuttujat
 dotenv.config();
@@ -19,6 +20,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/movies", movieRoutes);
+app.use("/api/omdb", omdbRoutes);
 
 app.use((err, req, res, next) => {
   console.error("Server error", err);
