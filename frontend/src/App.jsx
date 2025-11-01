@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Movie Watchlist</h1>
+      <h1 className="text-3xl font-bold text-red-500">Movie Watchlist</h1>
 
       {/* 🔍 Hakukenttä */}
       <form onSubmit={handleSearch}>
